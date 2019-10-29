@@ -13,6 +13,12 @@
 		1C0DC4472368B039007ADD32 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C0DC4452368B039007ADD32 /* Main.storyboard */; };
 		1C0DC4492368B03B007ADD32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C0DC4482368B03B007ADD32 /* Assets.xcassets */; };
 		1C0DC44C2368B03B007ADD32 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C0DC44A2368B03B007ADD32 /* LaunchScreen.storyboard */; };
+		1C0DC45A2368B1A6007ADD32 /* Banana.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C0DC4542368B1A5007ADD32 /* Banana.png */; };
+		1C0DC45B2368B1A6007ADD32 /* Fries.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C0DC4552368B1A5007ADD32 /* Fries.png */; };
+		1C0DC45C2368B1A6007ADD32 /* Orange.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C0DC4562368B1A6007ADD32 /* Orange.png */; };
+		1C0DC45D2368B1A6007ADD32 /* Apple.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C0DC4572368B1A6007ADD32 /* Apple.png */; };
+		1C0DC45E2368B1A6007ADD32 /* Pizza.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C0DC4582368B1A6007ADD32 /* Pizza.png */; };
+		1C0DC45F2368B1A6007ADD32 /* Burger.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C0DC4592368B1A6007ADD32 /* Burger.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +30,12 @@
 		1C0DC4482368B03B007ADD32 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1C0DC44B2368B03B007ADD32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1C0DC44D2368B03B007ADD32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C0DC4542368B1A5007ADD32 /* Banana.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Banana.png; sourceTree = "<group>"; };
+		1C0DC4552368B1A5007ADD32 /* Fries.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Fries.png; sourceTree = "<group>"; };
+		1C0DC4562368B1A6007ADD32 /* Orange.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Orange.png; sourceTree = "<group>"; };
+		1C0DC4572368B1A6007ADD32 /* Apple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Apple.png; sourceTree = "<group>"; };
+		1C0DC4582368B1A6007ADD32 /* Pizza.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Pizza.png; sourceTree = "<group>"; };
+		1C0DC4592368B1A6007ADD32 /* Burger.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Burger.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 		1C0DC43E2368B039007ADD32 /* FoodTable */ = {
 			isa = PBXGroup;
 			children = (
+				1C0DC4532368B194007ADD32 /* Images */,
 				1C0DC43F2368B039007ADD32 /* AppDelegate.swift */,
 				1C0DC4412368B039007ADD32 /* SceneDelegate.swift */,
 				1C0DC4432368B039007ADD32 /* ViewController.swift */,
@@ -65,6 +78,19 @@
 				1C0DC44D2368B03B007ADD32 /* Info.plist */,
 			);
 			path = FoodTable;
+			sourceTree = "<group>";
+		};
+		1C0DC4532368B194007ADD32 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				1C0DC4572368B1A6007ADD32 /* Apple.png */,
+				1C0DC4542368B1A5007ADD32 /* Banana.png */,
+				1C0DC4592368B1A6007ADD32 /* Burger.png */,
+				1C0DC4552368B1A5007ADD32 /* Fries.png */,
+				1C0DC4562368B1A6007ADD32 /* Orange.png */,
+				1C0DC4582368B1A6007ADD32 /* Pizza.png */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +151,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C0DC45F2368B1A6007ADD32 /* Burger.png in Resources */,
 				1C0DC44C2368B03B007ADD32 /* LaunchScreen.storyboard in Resources */,
+				1C0DC45D2368B1A6007ADD32 /* Apple.png in Resources */,
+				1C0DC45E2368B1A6007ADD32 /* Pizza.png in Resources */,
 				1C0DC4492368B03B007ADD32 /* Assets.xcassets in Resources */,
+				1C0DC45B2368B1A6007ADD32 /* Fries.png in Resources */,
+				1C0DC45A2368B1A6007ADD32 /* Banana.png in Resources */,
 				1C0DC4472368B039007ADD32 /* Main.storyboard in Resources */,
+				1C0DC45C2368B1A6007ADD32 /* Orange.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
